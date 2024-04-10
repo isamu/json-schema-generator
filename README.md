@@ -43,7 +43,7 @@ var jsonSchemaGenerator = require('json-schema-generator'),
     obj = { some: { object: true } },
     schemaObj;
 
-schemaObj = jsonSchemaGenerator(json);
+schemaObj = jsonSchemaGenerator(obj);
 ```
 
 ### Cli usage
